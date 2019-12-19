@@ -17,7 +17,7 @@
             </ul>
         </nav>
 </header>
-
+<main>
 <section>
         <h2>My Blog Posts</h2>
         <article id="1">
@@ -67,7 +67,7 @@
                 <img src="https://www.wikihow.com/images/thumb/d/d5/Be-an-Individual-Step-2-Version-2.jpg/aid73048-v4-900px-Be-an-Individual-Step-2-Version-2.jpg" width="40%"/>
                 <figcaption>John Doe's picture</figcaption>
             </figure>
-                <h3>John Doe's Testimony</h3>
+                <h4>John Doe's Testimony</h4>
                 <p>Never worked with a professional before, but now I can proudly say I have!</p>
         </article>
         <article>
@@ -75,7 +75,7 @@
                     <img src="https://www.wikihow.com/images/thumb/7/70/Be-an-Individual-Step-12-Version-2.jpg/aid73048-v4-900px-Be-an-Individual-Step-12-Version-2.jpg" width="40%"/>
                     <figcaption>Jane Doe's picture</figcaption>
                 </figure>
-                    <h3>Jane Doe's Testimony</h3>
+                    <h4>Jane Doe's Testimony</h4>
                     <p>I'm still thinking what the purpose of the tech</p>
             </article>
             <article>
@@ -83,13 +83,13 @@
                         <img src="https://www.wikihow.com/images/thumb/0/04/Be-an-Individual-Step-7-Version-2.jpg/aid73048-v4-900px-Be-an-Individual-Step-7-Version-2.jpg" width="40%" />
                         <figcaption>Richard Roe's picture</figcaption>
                     </figure>
-                        <h3>Richard Roe's Testimony</h3>
+                        <h4>Richard Roe's Testimony</h4>
                         <p>3 years experiences in front end devp.</p>
                 </article>
     </section>     
     <section>
         <h2>Meet our team</h2>
-        <table>
+        <table border="1px" style="border-collapse: collapse">
             <tr>
                 <th>Name</th>
                 <th>Job</th>
@@ -107,18 +107,20 @@
     <section>
         <h2>Contact us</h2>
         <form>
-                Name:<br>
-                <input type="text" name="firstname"><br>
+                <label for="name">Name:</label>
+                <input type="text" name="name"><br>
                 Email:<br>
-                <input type="text" name="lastname"><br>
-                Message:<br>
+                <label for="email">Email:</label>
+                <input type="text" name="email"><br>
+                <label for="message">Message:</label>
                 <input type="text" name="message"><br>
-                <input type="radio" name="gender" value="job"> You're looking for a job<br>
-                <input type="radio" name="gender" value="service"> You're looking for a service<br>
+                <input type="radio" name="job" value="job"> <label for="job">You're looking for a job</label><br>
+                <input type="radio" name="service" value="service"> <label for="service">You're looking for a service</label><br>
                 <input type="submit" value="Submit">
             </form>              
     </section>
-    <div>
+    </main>
+    <footer>
         <ul>
             <li><a href="https://www.facebook.com/recodedofficial/">Facebook</a></li>
             <li><a href="https://twitter.com/recodedofficial?lang=en">Twitter</a></li>
@@ -127,7 +129,7 @@
             <li><a href="https://www.linkedin.com/company/re-coded/">LinkedIn</a></li>
             <li><a href="https://medium.com/re-coded">Medium</a></li>
         </ul>
-    </div>
+    </footer>
 
 </body>
 </html>
